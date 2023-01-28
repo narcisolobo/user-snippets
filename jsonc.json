@@ -1,0 +1,27 @@
+{
+  "TypeScript Config File": {
+    "prefix": "tsconfig",
+    "body": [
+      "{",
+      "\t\"compilerOptions\": {",
+      "\t\t\"target\": \"ES2016\",",
+      "\t\t\"module\": \"CommonJS\",",
+      "\t\t\"rootDir\": \"./src\",",
+      "\t\t\"sourceMap\": true,",
+      "\t\t\"outDir\": \"./dist\",",
+      "\t\t\"removeComments\": true,",
+      "\t\t\"noEmitOnError\": true,",
+      "\t\t\"esModuleInterop\": true,",
+      "\t\t\"forceConsistentCasingInFileNames\": true,",
+      "\t\t\"strict\": true,",
+      "\t\t\"noUnusedLocals\": true,",
+      "\t\t\"noUnusedParameters\": true,",
+      "\t\t\"noImplicitReturns\": true,",
+      "\t\t\"skipLibCheck\": true",
+      "\t}",
+      "}",
+      ""
+    ],
+    "description": "Log output to console"
+  }
+}
