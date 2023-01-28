@@ -1,0 +1,46 @@
+{
+  "Bootstrap Navbar": {
+    "prefix": "bnavbar",
+    "body": [
+      "<nav className=\"navbar navbar-expand-lg navbar-dark bg-dark mb-3\">",
+      "\t<div className=\"container\">",
+      "\t\t<Link className=\"navbar-brand\" to=\"#\">$1</Link>",
+      "\t\t<button",
+      "\t\t\tclassName=\"navbar-toggler\"",
+      "\t\t\ttype=\"button\"",
+      "\t\t\tdata-bs-toggle=\"collapse\"",
+      "\t\t\tdata-bs-target=\"#navbarNav\">",
+      "\t\t\t<span className=\"navbar-toggler-icon\"></span>",
+      "\t\t</button>",
+      "\t\t<div className=\"collapse navbar-collapse\" id=\"navbarNav\">",
+      "\t\t\t<ul className=\"navbar-nav\">",
+      "\t\t\t\t<li className=\"nav-item\">",
+      "\t\t\t\t\t<Link className=\"nav-link\" to=\"#\">$2</Link>",
+      "\t\t\t\t</li>",
+      "\t\t\t</ul>",
+      "\t\t</div>",
+      "\t</div>",
+      "</nav>"
+    ],
+    "description": "Bootstrap Navbar"
+  },
+  "My useEffect Snippet": {
+    "prefix": "ue",
+    "body": ["useEffect(() => {", "\t$1", "}, []);"],
+    "description": "A simple useEffect snippet."
+  },
+  "useEffect and useState imports": {
+    "prefix": "ueus",
+    "body": "import { useEffect, useState } from \"react\";",
+    "description": "Imports useEffect and useState."
+  },
+  "Bootstrap Label and Text Input": {
+    "prefix": "blabinp",
+    "body": [
+      "<div className=\"mb-3\">",
+      "\t<label htmlFor=\"$1\" className=\"form-label\">$2:</label>",
+      "\t<input type=\"text\" name=\"$1\" id=\"$1\" className=\"form-control\" />",
+      "</div>"
+    ]
+  }
+}

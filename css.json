@@ -1,0 +1,62 @@
+{
+  "CSS Reset": {
+    "prefix": "reset",
+    "body": [
+      "*,",
+      "*::before,",
+      "*::after {",
+      "\tbox-sizing: border-box;",
+      "}",
+      "* {",
+      "\tmargin: 0;",
+      "}",
+      "html,",
+      "body {",
+      "\theight: 100%;",
+      "}",
+      "body {",
+      "\tline-height: 1.5;",
+      "\t-webkit-font-smoothing: antialiased;",
+      "}",
+      "img,",
+      "picture,",
+      "video,",
+      "canvas,",
+      "svg {",
+      "\tdisplay: block;",
+      "\tmax-width: 100%;",
+      "}",
+      "input,",
+      "button,",
+      "textarea,",
+      "select {",
+      "\tfont: inherit;",
+      "}",
+      "p,",
+      "h1,",
+      "h2,",
+      "h3,",
+      "h4,",
+      "h5,",
+      "h6 {",
+      "\toverflow-wrap: break-word;",
+      "}",
+      "#root,",
+      "#__next {",
+      "\tisolation: isolate;",
+      "}"
+    ],
+    "description": "Josh Comeau's CSS Reset"
+  },
+  "Hero Image Trick": {
+    "prefix": "hero",
+    "body": [
+      ".item {",
+      "\ttop: 50%;",
+      "\tleft: 50%;",
+      "\ttransform: translate(-50%, -50%);",
+      "}"
+    ],
+    "description": "Centering a full-screen background image"
+  }
+}
